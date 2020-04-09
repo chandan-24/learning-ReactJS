@@ -1,0 +1,25 @@
+{
+  "title": "My First Ever Blog",
+  "author":"Sameer",
+  "time": "Today at 00:30 am",
+  "comments": [
+    {
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/uxalex/128.jpg",
+      "author": "Sam",
+      "time": "Today at 6:30 pm",
+      "comment": "This is brilliant!"
+    },
+    {
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/gojeanyn/128.jpg",
+      "author": "Mohan",
+      "time": "Today at 5:30 pm",
+      "comment": "How artistic!"
+    },
+    {
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/nerrsoft/128.jpg",
+      "author": "Shera",
+      "time": "Today at 3:43 pm",
+      "comment": "I'm lovin it"
+    }
+  ]
+}
