@@ -3,3 +3,5 @@
 ## >> [Single page blog post WebApp](/learning-components/)
 
 ## >> [Season Display](/season-greeting/)
+
+## >> [Search Engine](/search-engine)
