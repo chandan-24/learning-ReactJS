@@ -1,5 +1,5 @@
 const React = require('react');
-require('./SearchBar.css');
+require('../style/SearchBar.css');
 
 class SearchBar extends React.Component {
   state = { searchTerm: ""};
