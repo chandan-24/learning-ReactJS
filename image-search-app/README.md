@@ -1,6 +1,14 @@
 # This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-## **This project is in development phase**
+## What is this project
+
+* This is a Image search webApp which accept a query and fetches list of images from [Unsplash](https://unsplash.com/) api.
+* This Project is using [semantic ui](https://semantic-ui.com/) for css.
+![WebApp](webApp.gif)
+
+## Future Work
+
+* Add pagination and some styling.
 
 ## To start the project
 
