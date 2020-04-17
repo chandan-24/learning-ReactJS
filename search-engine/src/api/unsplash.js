@@ -8,11 +8,12 @@ const unsplashApi = axios.create({
 });
 
 class Unsplash {
-  searchImage = async(searchTerm) => {
+  searchImage = async(searchTerm, page) => {
     const response = await unsplashApi.get('/search/photos', {
       params: {
         query: searchTerm,
-        per_page: 20,
+        per_page: 10,
+        page,
       }
     });
     return response.data;
