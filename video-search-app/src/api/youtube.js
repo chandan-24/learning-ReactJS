@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_KEY = 'AIzaSyCCCMU6PxmChVJ3eargLkz_PTJcoMK1Knk';
+const API_KEY = 'your_google_api_key';
 const youtubeApi = axios.create({
   baseURL: 'https://www.googleapis.com/youtube/v3'
 });

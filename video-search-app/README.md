@@ -4,7 +4,7 @@
 
 * This is a video search webApp which accept a query and fetches list of related videos for your query from [YouTube](https://developers.google.com/youtube/v3/docs/) api. By deafault it loads only 10 videos for the search term.
 
-* You can increase the number by changing the **youtube api file** [here](/video-search-app/src/api/youtube.js). Search for *maxResults* and change as per your need.
+* You can increase the number by changing the **youtube api file** [here](/video-search-app/src/api/youtube.js). Search for *maxResults* and change as per your need. Also you need **add your google api key** to *access youtube apis*
 
 * First time the WebApp loads it displays popular videos based on your region *(default region is set as INDIA)*.
 
