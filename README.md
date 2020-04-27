@@ -7,3 +7,5 @@
 ## >> [Image Search webApp](/image-search-app)
 
 ## >> [Video Search webApp](/video-search-app)
+
+## >> [Display Song Details from a list of songs](/react-redux)
