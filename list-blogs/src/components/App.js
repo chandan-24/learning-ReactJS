@@ -1,10 +1,12 @@
 const React = require('react');
 
+const PostList = require('./PostList');
+
 class App extends React.Component {
   render() {
     return(
-      <div>
-        App
+      <div className="ui container">
+        <PostList />
       </div>
     );
   }
