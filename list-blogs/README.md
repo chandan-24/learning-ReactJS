@@ -4,8 +4,6 @@
 
 * A **react redux** project that shows lists of fake blogs and its author which are fetched from [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/) server and stored in redux-store.
 
-![App](app.gif)
-
 ## To start the project
 
 Install dependencies, run `npm install` and then run `npm start`
