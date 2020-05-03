@@ -69,29 +69,9 @@ h2:after {
   height: 2px;
   background-color: var(--basic-orange);
   content: " ";
-  width: 200px;
+  width: 150px;
   margin: 0 auto;
   margin-top: 30px;
-}
-
-.big-icon {
-  font-size: 350%;
-  color: var(--basic-orange);
-  margin-bottom: 10px;
-}
-/*---------Paragraph----------*/
-.long-copy {
-  line-height: 145%;
-  width: 70%;
-  margin-left: 15%;
-  margin-bottom: 20px;
-}
-
-.box p {
-  line-height: 145%;
-  font-size: 90%;
-  text-align: justify;
-  padding-right: 10px;
 }
 
 /***********************************/
@@ -99,7 +79,8 @@ h2:after {
 /***********************************/
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -109,7 +90,8 @@ h2:after {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   background-color: var(--basic-orange);
   border: 1.5px solid var(--basic-orange);
   color: #FFF;
@@ -122,7 +104,8 @@ h2:after {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover {
   border: 1.5px solid var(--dark-orange);
   background-color: var(--dark-orange);
 }
@@ -142,6 +125,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url(/resource/css/images/hero.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -189,4 +173,358 @@ header {
 .main-nav li a:active,
 .main-nav li a:hover {
   border-bottom: 2px solid var(--basic-orange);
+}
+
+/***********************************/
+/*       Feature Section           */
+/***********************************/
+
+.big-icon {
+  font-size: 350%;
+  color: var(--basic-orange);
+  margin-bottom: 10px;
+}
+
+/*---------Paragraph----------*/
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+
+.box p {
+  line-height: 145%;
+  font-size: 90%;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+/***********************************/
+/*        Meal Section             */
+/***********************************/
+
+.section-meal {
+  padding: 0;
+  display: inline-block;
+}
+
+.meal-showcase {
+  list-style: none;
+  width: 100%;
+  height: auto;
+}
+
+.meal-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.meal-photo img{
+  width: 100%;
+  height: auto;
+  transform: scale(1.2);
+  transition: transform 0.5s, opacity 0.5s;
+  opacity: 0.7;
+}
+
+.meal-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+/***********************************/
+/*        How it works             */
+/***********************************/
+.section-steps {
+  background-color: #f3f3f3;
+}
+
+.step-box:first-child{
+  text-align: right;
+  margin-top: 30px !important;
+  padding-right: 3%;
+}
+
+.step-box:last-child {
+  margin-top: 70px;
+  padding-left: 3%
+}
+
+.step-box:first-child img {
+  width: 40%;
+}
+
+.work-step {
+  margin-bottom: 50px;
+}
+
+.work-step:last-of-type {
+  margin-bottom: 70px;
+}
+
+.work-step div {
+  color: var(--basic-orange);
+  border: 1px solid var(--basic-orange);
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 150%;
+  padding-top: 5px;
+  float: left;
+  margin-right: 25px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+/***********************************/
+/*       currently working in      */
+/***********************************/
+
+.box img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 20px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.icon-small {
+  color: var(--basic-orange);
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+  text-decoration: none;
+  color: var(--basic-orange);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: border-bottom 0.6s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+  border-bottom: 1px solid var(--dark-orange);
+  color: var(--dark-orange);
+}
+
+/***********************************/
+/*      Customer testimonials      */
+/***********************************/
+
+.section-testimonials{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/back-customers.jpg);
+  color: #FFF;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  margin-top: 40px;
+  position: relative;
+}
+
+blockquote:before {
+  content: '\201C';
+  font-size: 500%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+cite {
+  display: block;
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+cite img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+/***********************************/
+/*          Service Plans          */
+/***********************************/
+
+.section-plan {
+  background-color: #f3f3f3;
+}
+
+.plan-box {
+  border-radius: 5px;
+  background-color: #FFF;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 3px 2px #dddddd;
+}
+
+.plan-box div{
+  padding: 15px;
+  border-bottom: 1px solid #f0eeee;
+}
+
+.plan-box div:first-child {
+  background-image: linear-gradient(#ffffff, #f8f8f8);
+}
+
+.plan-box div:last-child {
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 300%;
+  font-weight: 100;
+  color: var(--basic-orange);
+}
+
+.plan-price span{
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 0 5%;
+}
+
+/***********************************/
+/*               Form              */
+/***********************************/
+
+.section-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #cccccc
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+/***********************************/
+/*               Form              */
+/***********************************/
+
+footer {
+  background-color: #333;
+  color: #8a8a8a;
+  padding: 40px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-icons {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-nav li:last-child ,
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav a:link ,
+.footer-nav a:visited ,
+.social-icons a:link,
+.social-icons a:visited {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover, 
+.footer-nav a:active {
+  color: #ddd;
+}
+
+.social-icons a:link,
+.social-icons a:visited {
+  font-size: 150%;
+}
+
+.fb, .tw, .gl, .in {
+  transition: color 0.2s;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.tw:hover {
+  color: #00aced;
+}
+
+.gl:hover {
+  color: #dd4b39;
+}
+
+.in:hover {
+  color: #007bb6;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
 }
