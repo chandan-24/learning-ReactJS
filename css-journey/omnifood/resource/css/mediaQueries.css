@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1200px) {
+  .header-text-box {
+    width: 100%;
+    padding: 0% 5%;
+  }
+  .step-box:last-child { margin-top: 60px; }
+  .row { padding: 0 2%; }
+}
+
+@media only screen and (max-width: 1023px) {
+  body{ font-size: 18px; }
+  section{ padding: 40px 0; }
+  h1 { font-size: 200%; }
+  h2 { font-size: 150%; }
+  
+  .long-copy {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .step-box:first-child { margin-top: 10px; }
+  .step-box:last-child { margin-top: 20px; }
+  .step-box:first-child img { width: 48%; }
+  .work-step { margin-bottom: 30px; }
+  .work-step:last-of-type { margin-bottom: 40px; }
+  .btn-app img {
+    height: 45px;
+    width: auto;
+  }
+
+  .city-feature { font-size: 90%;}
+  .icon-small { 
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .plan-box { width: 100%; }
+  .plan-price { font-size: 240%; }
+  .contact-form { width: 80%; }
+}
+
+@media only screen and (max-width: 767px) {
+  body { font-size: 16px; }
+  .row{ padding: 0 30px;}
+  .header-text-box { padding: 0 4%; }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .main-nav { display: none; }
+
+  h2:after {
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+    text-align: justify;
+  }
+
+  .box p { margin-bottom: 10px; }
+
+  .step-box:first-child {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .step-box:last-child {
+    margin-top: 5px;
+    padding: 0;
+  }
+  .step-box:first-child img { width: 40%; }
+  .work-step { margin: 20px 0; }
+  .work-step:last-of-type { margin-bottom: 40px; }
+  .work-step div {
+    width: 40px;
+    height: 40px;
+    font-size: 150%;
+    padding-top: 5px;
+    margin-right: 25px;
+  }
+
+  .app { text-align: center; }
+  .btn-app img {
+    height: 45px;
+    width: auto;
+  }
+
+  .box img{
+    width: 60%;
+  }
+
+  .plan-box {
+    width: 80%;
+    margin-left: 10% !important;
+    margin-bottom: 15px;
+  }
+
+  .contact-form { width: 100%; }
+  .social-icons {
+    float: left;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 20px 0;
+  }
+  .plan-box {
+    width: 90%;
+    margin-left: 5% !important;
+  }
+  .section-form .row {
+    padding: 0 10px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+  footer .row {
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -13,13 +13,15 @@
   --dark-orange: #bf6516;
 }
 
-html {
+html,
+body {
   background-color: #FFF;
   color: #555;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /***********************************/
@@ -31,9 +33,7 @@ html {
   margin: 0 auto;
 }
 
-section {
-  padding: 80px 0;
-}
+section { padding: 80px 0; }
 
 h1,
 h2,
@@ -46,7 +46,7 @@ h1 {
   margin-top: 0 !important;
   margin-bottom: 20px;
   color: #FFF;
-  font-size: 240% !important;
+  font-size: 240%;
   letter-spacing: 1px;
   word-spacing: 4px;
 }
@@ -69,7 +69,7 @@ h2:after {
   height: 2px;
   background-color: var(--basic-orange);
   content: " ";
-  width: 150px;
+  width: 120px;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -171,9 +171,7 @@ header {
 }
 
 .main-nav li a:active,
-.main-nav li a:hover {
-  border-bottom: 2px solid var(--basic-orange);
-}
+.main-nav li a:hover { border-bottom: 2px solid var(--basic-orange); }
 
 /***********************************/
 /*       Feature Section           */
@@ -199,6 +197,8 @@ header {
   text-align: justify;
   padding-right: 10px;
 }
+
+.box p:last-of-type { padding-right: 0;}
 
 /***********************************/
 /*        Meal Section             */
@@ -244,13 +244,11 @@ header {
 /***********************************/
 /*        How it works             */
 /***********************************/
-.section-steps {
-  background-color: #f3f3f3;
-}
+.section-steps { background-color: #f3f3f3; }
 
 .step-box:first-child{
   text-align: right;
-  margin-top: 30px !important;
+  margin-top: 30px;
   padding-right: 3%;
 }
 
@@ -259,17 +257,11 @@ header {
   padding-left: 3%
 }
 
-.step-box:first-child img {
-  width: 40%;
-}
+.step-box:first-child img { width: 40%; }
 
-.work-step {
-  margin-bottom: 50px;
-}
+.work-step { margin-bottom: 50px; }
 
-.work-step:last-of-type {
-  margin-bottom: 70px;
-}
+.work-step:last-of-type { margin-bottom: 70px; }
 
 .work-step div {
   color: var(--basic-orange);
@@ -288,8 +280,9 @@ header {
 .btn-app img {
   height: 50px;
   width: auto;
-  margin-right: 20px;
 }
+
+.btn-app img:first-child { margin-right: 10px; }
 
 /***********************************/
 /*       currently working in      */
@@ -301,9 +294,7 @@ header {
  margin-bottom: 20px;
 }
 
-.city-feature {
-  margin-bottom: 5px;
-}
+.city-feature { margin-bottom: 5px; }
 
 .icon-small {
   color: var(--basic-orange);
@@ -374,30 +365,27 @@ cite img {
 /*          Service Plans          */
 /***********************************/
 
-.section-plan {
-  background-color: #f3f3f3;
-}
+.section-plan { background-color: #f3f3f3; }
 
 .plan-box {
   border-radius: 5px;
   background-color: #FFF;
   width: 90%;
   margin-left: 5%;
+  padding: 0;
   box-shadow: 0 3px 2px #dddddd;
 }
+
+.plan-box:first-child { margin-left: 0%; }
 
 .plan-box div{
   padding: 15px;
   border-bottom: 1px solid #f0eeee;
 }
 
-.plan-box div:first-child {
-  background-image: linear-gradient(#ffffff, #f8f8f8);
-}
-
-.plan-box div:last-child {
-  text-align: center;
-}
+.plan-box div:first-child { background-image: linear-gradient(#ffffff, #f8f8f8);}
+ 
+.plan-box div:last-child { text-align: center; }
 
 .plan-price {
   font-size: 300%;
@@ -410,23 +398,17 @@ cite img {
   font-weight: 300;
 }
 
-.plan-price-meal {
-  font-size: 80%;
-}
+.plan-price-meal { font-size: 80%; }
 
-.plan-box ul {
-  list-style: none;
-}
+.plan-box ul { list-style: none; }
 
-.plan-box ul li {
-  padding: 0 5%;
-}
+.plan-box ul li { padding: 0 5%; }
 
 /***********************************/
 /*               Form              */
 /***********************************/
 
-.section-form {
+.contact-form{
   width: 50%;
   margin: 0 auto;
 }
@@ -441,17 +423,11 @@ textarea {
   border: 1px solid #cccccc
 }
 
-textarea {
-  height: 100px;
-}
+textarea { height: 100px; }
 
-input[type=checkbox] {
-  margin: 10px 5px 10px 0;
-}
+input[type=checkbox] { margin: 10px 5px 10px 0; }
 
-*:focus {
-  outline: none;
-}
+*:focus { outline: none; }
 
 /***********************************/
 /*               Form              */
@@ -481,9 +457,7 @@ footer {
 }
 
 .footer-nav li:last-child ,
-.social-icons li:last-child {
-  margin-right: 0;
-}
+.social-icons li:last-child { margin-right: 0; }
 
 .footer-nav a:link ,
 .footer-nav a:visited ,
@@ -495,34 +469,20 @@ footer {
 }
 
 .footer-nav a:hover, 
-.footer-nav a:active {
-  color: #ddd;
-}
+.footer-nav a:active { color: #ddd; }
 
 .social-icons a:link,
-.social-icons a:visited {
-  font-size: 150%;
-}
+.social-icons a:visited { font-size: 150%; }
 
-.fb, .tw, .gl, .in {
-  transition: color 0.2s;
-}
+.fb, .tw, .gl, .in { transition: color 0.2s; }
 
-.fb:hover {
-  color: #3b5998;
-}
+.fb:hover { color: #3b5998; }
 
-.tw:hover {
-  color: #00aced;
-}
+.tw:hover { color: #00aced; }
 
-.gl:hover {
-  color: #dd4b39;
-}
+.gl:hover { color: #dd4b39; }
 
-.in:hover {
-  color: #007bb6;
-}
+.in:hover { color: #007bb6; }
 
 footer p {
   text-align: center;
