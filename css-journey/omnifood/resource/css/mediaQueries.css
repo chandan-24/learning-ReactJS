@@ -49,7 +49,36 @@
     margin: 0 0 10px 0;
   }
 
-  .main-nav { display: none; }
+  .logo { height: 80px; }
+
+  .nav-icon {
+    margin-top: 35px;
+    font-size: 180%;
+    display: block;
+  }
+
+  .main-nav {
+    float: left;
+    align-items: center;
+    margin-top: 25px;
+    display: none;
+    height: 0;
+  }
+
+  .active {
+    display: block;
+    height: auto;
+  }
+
+  .main-nav li{ 
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 100%;
+  }
 
   h2:after {
     width: 80px;
@@ -109,9 +138,8 @@
 }
 
 @media only screen and (max-width: 480px) {
-  section {
-    padding: 20px 0;
-  }
+  section { padding: 20px 0; }
+  .logo { height: 60px; }
   .plan-box {
     width: 90%;
     margin-left: 5% !important;

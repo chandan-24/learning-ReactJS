@@ -173,6 +173,15 @@ header {
 .main-nav li a:active,
 .main-nav li a:hover { border-bottom: 2px solid var(--basic-orange); }
 
+.nav-icon {
+  float: right;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 55px;
+  font-size: 200%;
+  display: none;
+}
+
 /***********************************/
 /*       Feature Section           */
 /***********************************/
