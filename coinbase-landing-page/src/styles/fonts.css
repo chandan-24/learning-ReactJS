@@ -1,0 +1,9 @@
+@font-face {
+  font-family: GraphikBold;
+  src: url('../resources/graphik/GraphikSemibold.otf');
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url('../resources/graphik/GraphikRegular.otf');
+}
