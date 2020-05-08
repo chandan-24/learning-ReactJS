@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Orchid",
+    "base": "OXT",
+    "reward": "Earn $52 OXT"
+  },
+  {
+    "name": "Tezos",
+    "base": "XTZ",
+    "reward": "Earn $6 XTZ"
+  },
+  {
+    "name": "EOS",
+    "base": "EOS",
+    "reward": "Earn $50 EOS"
+  },
+  {
+    "name": "Stellar Lumens",
+    "base": "XLM",
+    "reward": "Earn $50 XLM"
+  }
+]
