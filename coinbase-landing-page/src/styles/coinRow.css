@@ -1,0 +1,97 @@
+.coin-row {
+  border-bottom: 1px solid #16161611;
+  border-left: 1px solid #16161611;
+  border-right: 1px solid #16161611;
+  display: flex;
+  font-size: 125%;
+  /* font-weight: lighter; */
+}
+
+.coin-row:hover {
+  background-color: #fff4f470;
+}
+
+.coin-row:last-of-type {
+  border-radius: 0 0 4px 4px;
+}
+
+.table-header {
+  height: 54px;
+  display: flex;
+  border-bottom: 1px solid #16161611;
+  padding-top: 18px;
+  color: #00000088;
+}
+
+.id {
+  flex: 8%;
+  padding-left: 32px;
+}
+
+.name { flex: 54%; }
+.price { flex: 12%; }
+.diff { flex: 9%; }
+.graph { flex: 8%; }
+.btn { 
+  flex: 8%;
+  padding-left: 15px;
+}
+
+.coin-id {
+  padding-top: 25px;
+  flex: 8%;
+}
+
+.coin-name {
+  display: flex;
+  padding-top: 25px;
+  flex: 54%;
+  cursor: pointer;
+}
+
+.coin-price {
+  padding-top: 25px;
+  flex: 12%;
+}
+
+.coin-diff {
+  padding-top: 25px;
+  flex: 9%;
+  color: rgb(5, 177, 105);
+}
+
+.btn-graph { flex: 8% }
+
+.coin-btn {
+  padding-top: 15px;
+  flex: 8%;
+}
+
+.coin-id p {
+  margin-left: 32px;
+  color: #00000088;
+}
+
+.coin-name img {
+  height: 36px;
+  width: 36px;
+  margin-top: -7px;
+}
+
+.coin-name p{
+  margin-left: 15px;
+}
+
+.coin-name p:last-child {
+  color: #00000088;
+}
+
+.btn-buy {
+  height: 40px;
+  width: 60px;
+  font-size: 80%;
+}
+
+.btn-buy p {
+  margin-top: 5px;
+}

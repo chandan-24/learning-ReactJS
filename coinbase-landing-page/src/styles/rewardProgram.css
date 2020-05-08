@@ -1,0 +1,54 @@
+.reward {
+  display: flex;
+  width: 1180px;
+  margin: 24px auto;
+  height: 370px;
+}
+
+.reward-head {
+  flex: 1;
+  height: auto;
+}
+
+.reward-head div {
+  max-width: 350px;
+  height: auto;
+  margin-top: 75px;
+}
+
+.reward-head h2 {
+  font-size: 240%;
+}
+
+.btn-earn {
+  margin: 0;
+  height: 42px;
+  width: 121px;
+  background-color: rgb(22, 82, 240);
+}
+
+.btn-earn:hover {
+  background-color: rgb(17, 75, 221);
+}
+
+.btn-earn p{
+  padding-top: 6px;
+}
+
+.reward-main {
+  height: auto;
+  flex: 1;
+}
+
+.reward-table {
+  position: relative;
+  height: 370px;
+}
+
+.reward-table a:last-of-type {
+  color: rgb(22, 82, 240);
+  margin-left: 115px;
+  font-size: 114%;
+  position: absolute;
+  bottom: 0;
+}
