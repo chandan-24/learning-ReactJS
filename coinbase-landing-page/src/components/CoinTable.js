@@ -7,10 +7,11 @@ const CoinRow = require('./CoinRow');
 class CoinTable extends React.Component {
   render() {
     return(
-      <section>
+      <section className="section-table">
+        <div className="bg-color"></div>
         <div className="section-coin">
+          <CoinRow header={true} />
           {coinData.map(coin => {
-            console.log(coin);
             return(
               <CoinRow coin={coin} />
             )
