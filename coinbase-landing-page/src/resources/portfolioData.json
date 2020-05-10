@@ -1,0 +1,22 @@
+[
+  {
+    "name":"portfolio",
+    "title":"Manage your portfolio",
+    "content":"Buy and sell popular digital currencies, keep track of them in the one place."
+  },
+  {
+    "name":"recurring",
+    "title":"Recurring buys",
+    "content":"Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly."
+  },
+  {
+    "name":"vault",
+    "title":"Vault protection",
+    "content":"For added security, store your funds in a vault with time delayed withdrawals."
+  },
+  {
+    "name":"mobile",
+    "title":"Mobile apps",
+    "content":"Stay on top of the markets with the Coinbase app for Android or iOS"
+  }
+]
