@@ -1,9 +1,16 @@
 const React = require('react');
+
 require('../styles/main.css');
 const Header = require('./Header');
 const CoinGraph = require('./CoinTable');
 const RewardProgram = require('./RewardProgram');
 const CryptoPortfolio = require('./CrytoPortfolio');
+const Features = require('./Features');
+const Highlights = require('./Highlights');
+const StartSteps = require('./StartSteps')
+const StartEarn = require('./StartEarn');
+const Footer = require('./Footer');
+
 class App extends React.Component {
   componentDidMount() {
     const header = document.querySelector("nav");
@@ -43,6 +50,12 @@ class App extends React.Component {
         <CoinGraph />
         <RewardProgram />
         <CryptoPortfolio />
+        <Features />
+        <div className="seprator"></div>
+        <Highlights />
+        <StartSteps />
+        <StartEarn />
+        <Footer />
       </div>
     )
   } 
