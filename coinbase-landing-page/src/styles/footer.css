@@ -1,0 +1,56 @@
+@import url('../styles/fonts.css');
+
+.section-footer {
+  height: 537px;
+  font-size: 114%;
+}
+
+.footer {
+  width: 1180px;
+  height: 100%;
+  padding: 90px 24px 100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer a {
+  color: #263c6db4;
+  font-family: GraphikLight;
+  margin: 6px 0 5px 0;
+}
+
+.head {
+  height: 19px;
+  margin: 5px 0 20px 0;
+}
+
+.footer a:hover {
+  color: rgba(33, 95, 253, 0.815);  
+  width: fit-content;
+  text-decoration: underline;
+}
+
+.footer-col {
+  flex: 1;
+  display: flex;
+}
+
+.footer-col h3 {
+  font-size: 100%;
+}
+
+
+.links {
+  display: grid;
+}
+
+.branding img {
+  height: auto;
+  width: 90px;
+}
+
+.branding p {
+  font-family: GraphikLight;
+  color: #263c6db4;
+  margin-top: 50px;
+}

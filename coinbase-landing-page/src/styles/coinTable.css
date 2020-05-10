@@ -1,6 +1,7 @@
 .section-table {
   height: 340px;
   background-color: #ffffff;
+  position: relative;
 }
 
 .bg-color {

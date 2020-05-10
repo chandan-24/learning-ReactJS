@@ -1,0 +1,29 @@
+.section-highlights {
+  height: 212px;
+  margin: 24px 0;
+  background: rgb(22, 82, 240) none repeat scroll 0% 0%;
+  color: #ffffff;
+}
+
+.hl-main{
+  display: flex;
+  margin: 0 auto;
+  padding: 24px;
+  width: 1180px;
+}
+
+.hl-el{
+  flex: 1;
+  margin-top: 35px;
+}
+
+.hl-el div{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hl-el h1 { font-size: 400%;}
+.hl-el p {
+  letter-spacing: 1px;
+  color: #ffffffbd;
+}

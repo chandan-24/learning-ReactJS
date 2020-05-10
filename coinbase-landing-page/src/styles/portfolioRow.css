@@ -1,0 +1,40 @@
+.main-row {
+  display: flex;
+  min-height: 90px;
+  width: 414px;
+  margin-bottom: 40px;
+}
+
+.row-image {
+  flex:1;
+}
+
+.row-image div {
+  height: 72px;
+  width: 72px;
+  box-shadow: 0 3px 15px #00000017;
+  border-radius: 200%;
+}
+
+.row-image img {
+  width: 35px;
+  height: auto;
+  float: left;
+  transform: translate(50%,50%);
+}
+
+.row-content {
+  flex:4;
+  margin-left: 16px;
+}
+
+.row-content h3 {
+  font-size: 142%;
+}
+
+.row-content p {
+  font-size: 110%;
+  font-weight: lighter;
+  line-height: 170%;
+  color: rgb(131, 143, 160);
+}
